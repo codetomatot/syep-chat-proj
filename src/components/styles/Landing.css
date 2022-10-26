@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap');
+.main-land {
+    /* text-align: center; */
+    margin: 0;
+    background-color: #c59766;
+    height: 285vh;
+}
+.img-group-logo {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    width: 500px;
+    height: 500px;
+    border: 5px dotted #000;
+    padding: 2.5rem;
+}
+.img-group-logo2 {
+    position: absolute;
+    right: 50px;
+    top: 750px;
+    width: 650px;
+    height: 400px;
+    border: 5px dotted #000;
+    padding: 2.5rem;
+}
+.img-3 {
+    position: absolute;
+    left: 40px;
+    top: 1350px;
+    width: 500px;
+    height: 400px;
+    border: 5px dotted #000;
+    padding: 2.5rem;
+}
+.info-large-header {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    margin: 0;
+}
+.info-card {
+    /* float: left; */
+    padding:15px;
+    box-sizing: border-box;
+    width: 500px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 6px 4px 4px #1e2122;
+    margin-bottom: 15px;
+    z-index: 1;
+}
+.left {
+    position: relative;
+    left: 60px;
+}
+
+.right {
+    position: relative;
+    left: 54%;
+}
+.down {
+    position: relative;
+    top: 45px;
+}
+
+.bottom-text {
+    border: 5px dotted #000;
+    width: 580px;
+    /* padding-right: 0; */
+    /* padding: 0.5rem; */
+    position: relative;
+    bottom: 150px;
+    left: 40px;
+}
+@media only screen and (max-width: 1370px) {
+    .img-group-logo2 {
+        padding: 1.5rem;
+    }
+}
+@media only screen and (max-width: 1310px) {
+    .img-group-logo2 {
+        width: 550px;
+        height: 350px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .right {
+        left: 50%;
+    }
+    .img-group-logo {
+        width: 400px;
+        height: 400px;
+    }
+    .img-group-logo2 {
+        width: 450px;
+        height: 300px;
+    }
+    .img-3 {
+        width: 400px;
+        height: 320px;
+    }
+} 
+@media only screen and (max-width: 1105px) {
+    .img-group-logo2 {
+        width: 380px;
+        height: 250px;
+        top: 850px;
+    }
+}
+@media only screen and (max-width: 1020px) {
+    .right {
+        left: 45%;
+    }
+    .img-group-logo {
+        width: 300px;
+        height: 300px;
+    }
+    .img-group-logo2 {
+        width: 300px;
+        height: 220px;
+    }
+    .img-3 {
+        width: 300px;
+        height: 220px;
+    }
+    .bottom-text {
+        bottom: -50px;
+        width: 400px;
+    }
+} 
+@media only screen and (max-width: 930px) {
+    .right {
+        left: 40%;
+    }
+    .img-group-logo {
+        width: 200px;
+        height: 200px;
+    }
+    .img-group-logo2 {
+        width: 200px;
+        height: 120px;
+    }
+    .img-3 {
+        width: 200px;
+        height: 120px;
+    }
+} 
+@media only screen and (max-width: 850px) {
+    .right {
+        left: 35%;
+    }
+    .img-group-logo2 {
+        display: none;
+    }
+    .img-3 {
+        display: none;
+    }
+    
+} 
+@media only screen and (max-width: 785px) {
+    .right {
+        left:25%;
+    }
+    .img-group-logo {
+        position: relative;
+        top: 0;
+        margin-bottom: 24px;
+    }
+    .main-land {
+        height: 345vh;
+    }   
+} 
+@media only screen and (max-width: 685px) {
+    .right {
+        left:15%;
+    }
+} 
+@media only screen and (max-width: 605px) {
+    .right {
+        left:0%;
+    }
+    .left {
+        left: 0%;
+    }
+    .bottom-text {
+        bottom: -50px;
+        width: 400px;
+    }
+} 
+@media only screen and (max-width: 520px) {
+    .info-card {
+        width: auto;
+    }
+} 
+@media only screen and (max-width: 395px) {
+    .main-land {
+        height: 375vh;
+    } 
+    .bottom-text {
+        width: 200px;
+    }
+} 
+@media only screen and (max-width: 330px) {
+    .main-land {
+        height: 385vh;
+    }
+} 
+@media only screen and (max-width: 300px) {
+    .main-land {
+        height: 395vh;
+    }
+} 

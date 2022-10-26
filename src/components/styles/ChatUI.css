@@ -1,0 +1,202 @@
+/* * {
+    box-sizing: border-box;
+} */
+.admins {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: #dbdbdb;
+    box-sizing: border-box;
+}
+
+.admin-chats-ave {
+    padding: 0.5rem;
+    background-color: #fff;
+    box-shadow: 4px 5px 2px #868788;
+    border-radius: 8px;
+    width: 400px;
+    margin: 10px;
+}
+.chat-opts {
+    float: right;
+}
+.chat-opts-container {
+    background-color: rgb(255, 0, 0);
+    width: 80px;
+    height: 100px;
+    border-radius: 8px;
+    float: right;
+}
+.status-online {
+    fill: green;
+    font-size: 50px;
+}
+.status-full {
+    fill: blue;
+    font-size: 50px;
+}
+.status-offline {
+    fill: red;
+    font-size: 50px;
+}
+.small {
+    font-size: 20px;
+}
+
+
+
+
+.nu {
+    background-color: #282b30;
+    color: #fff;
+    height: 120vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.main-chat {
+    width: 100%;
+    align-items: center;
+    text-align: center; 
+    overflow: hidden;
+}
+.msg-display {
+    height: 600px;
+    margin: 0 100px 0 100px;
+    overflow: scroll;
+}
+
+
+
+
+
+.chatmsg-box {
+    /* border-top: 1px solid #fff; */
+    padding: 0;
+    margin: 0 0 10px 0;
+}
+.chatmsg-box p {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+.divider {
+    display: inline-block;
+    border-bottom: rgba(122, 122, 122, 0.589) 1px solid;
+    width: 500px;
+    margin: 5px;
+}
+.time-sent {
+    font-size: 10px;
+    display: inline;
+}
+.sender {
+    float: left;
+    margin-left: 50px;
+}
+
+
+.corr {
+    display: inline;
+    /* position: fixed; */
+    /* bottom: 24px; */
+}
+.msg-input {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 70%;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 24px; */
+    font-size: 15px;
+    border-radius: var(--border-radius);
+    background-color: #424549;
+    color: #fff;
+}
+.main-send {
+    border: none;
+    outline: none;
+    width: 80px;
+    height: 45px;
+    /* float: right; */
+    padding: 10px;
+    /* margin-right: 150px; */
+    border-radius: var(--border-radius);
+    color: #fff;
+    background-color: #7289da;
+    /* position: relative; */
+}
+
+
+
+@media only screen and (max-width: 1260px){
+    .divider {
+        width: 400px;
+    }
+    .main-send {
+        margin-right: 120px;
+        top: -122px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .msg-display {
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 1070px) {
+    .divider {
+        width: 300px;
+    }
+    .msg-input {
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 870px) {
+    .divider {
+        width: 250px;
+    }
+    .msg-input {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 770px) {
+    .divider {
+        width: 200px;
+    }
+    .msg-input {
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 670px) {
+    .divider {
+        width: 100px;
+    }
+    .msg-input {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .msg-input {
+        width: 45%;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .divider {
+        width: 50px;
+    }
+    .msg-input {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 355px) {
+    .divider {
+        width: 25px;
+    }
+    .msg-input {
+        width: 40%;
+    }
+}
